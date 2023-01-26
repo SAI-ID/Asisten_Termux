@@ -2,7 +2,10 @@
 ini adalah projeck yang masih awal dan belum selesai di buat,
 untuk memulai cukup clone dan jalan-kan di termux.
 
+<<<<<<< HEAD
 ## cara penggunaan
+=======
+
 ikuti langkah langka berikut setelah anda membuka termux, anda bisa copy paste :
 -pkg install python3
 -cd /sdcard
