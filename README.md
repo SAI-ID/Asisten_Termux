@@ -5,6 +5,7 @@ untuk memulai cukup clone dan jalan-kan di termux./n
 ## modulus yang di perlukan  
 jalanka perintah ini :  
 -pkg install $(cat perlengkapan.txt)  
+-pip install $(cat reqpy.txt)
 
 
 ## cara penggunaan
