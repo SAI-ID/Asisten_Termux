@@ -47,7 +47,7 @@ def fungsi_ulang_pangkat():
 try:
     while True:
         try:
-            os.system('cls')# ganti clear untuk di termux
+            os.system('clear')# ganti clear untuk di termux
             print('='*4, 'SELAMAT DATANG', '='*4)
             print('='*4, 'masukan no pilihan menu')
             print('''
