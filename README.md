@@ -7,6 +7,9 @@ jalanka perintah ini :
 -pkg install $(cat perlengkapan.txt)  
 -pip install $(cat reqpy.txt)
 
+## note
+jalanlan perintah ini sebelum  
+-python Main.py  
 
 ## cara penggunaan
 ikuti langkah langka berikut setelah anda membuka termux, anda bisa copy paste :/n
