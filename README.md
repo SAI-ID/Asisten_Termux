@@ -5,7 +5,8 @@ untuk memulai cukup clone dan jalan-kan di termux./n
 ## modulus yang di perlukan  
 jalanka perintah ini :  
 -pkg install $(cat perlengkapan.txt)  
-
+jalanlan perintah ini sebelum  
+-python Main.py  
 
 ## cara penggunaan
 ikuti langkah langka berikut setelah anda membuka termux, anda bisa copy paste :/n
