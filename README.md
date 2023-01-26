@@ -2,8 +2,12 @@
 ini adalah projeck yang masih awal dan belum selesai di buat,
 untuk memulai cukup clone dan jalan-kan di termux./n
 
-## cara penggunaan
+## modulus yang di perlukan  
+jalanka perintah ini :  
+-pkg install $(cat perlengkapan.txt)  
 
+
+## cara penggunaan
 ikuti langkah langka berikut setelah anda membuka termux, anda bisa copy paste :/n
 -pkg install python3  
 -cd /sdcard  
