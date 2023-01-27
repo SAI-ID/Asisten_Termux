@@ -2,13 +2,19 @@
 ini adalah projeck yang masih awal dan belum selesai di buat,  
 untuk memulai cukup clone dan jalan-kan di termux.  
 
+
+## fitur
+- menu untuk matematika untuk sekarang ada 7  
+- menu tool hack, untuk sekarang cuman ada cek ip server wab 
+- menu kelistrikan, untuk sekarang cuman ada cek toleransi resistor
+
+
 ## modulus yang di perlukan  
 jalanka perintah ini :  
 - pkg install $(cat perlengkapan.txt)  
 - pip install $(cat reqpy.txt)
-
-## note
-jalanlan perintah ini sebelum  
+#### note  
+jalanlan perintah ini sebelum!!  
 - python Main.py  
 
 ## cara penggunaan

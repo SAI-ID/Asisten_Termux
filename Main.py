@@ -3,63 +3,31 @@ import os
 
 
 #pkg local
-from pkg.matematika import mtk
 from pkg import cek_ip_me as ckip
+from pkg.matematika import toleransi_resistor as tr
+from pkg.matematika import rumus_kecepatan as rk
+from pkg import cetak as c
 
-
-def fungsi_ulang_tambah():
-    x = int(input('masukan angka pertama\t: '))
-    y = int(input('masukan angka kedua\t: '))
-    hasil = mtk.Tambah(x, y)
-    print(hasil)
-
-def fungsi_ulang_kurang():
-    x = int(input('masukan angka pertama\t: '))
-    y = int(input('masukan angka kedua\t: '))
-    hasil = mtk.Kurang(x, y)
-    print(hasil)
-    
-def fungsi_ulang_kali():
-    x = int(input('masukan angka pertama\t: '))
-    y = int(input('masukan angka kedua\t: '))
-    hasil = mtk.kali(x, y)
-    print(hasil)
-    
-def fungsi_ulang_bagi():
-    x = int(input('masukan angka pertama\t: '))
-    y = int(input('masukan angka kedua\t: '))
-    hasil = mtk.bagi(x, y)
-    print(hasil)
-
-def fungsi_ulang_modulus():
-    x = int(input('masukan angka pertama\t: '))
-    y = int(input('masukan angka kedua\t: '))
-    hasil = mtk.modulus(x, y)
-    print(hasil)
-
-
-def fungsi_ulang_pangkat():
-    x = int(input('masukan angka pertama\t: '))
-    y = int(input('masukan angka kedua\t: '))
-    hasil = mtk.pangkat(x, y)
-    print(hasil)
-
+def bersihkan_console():
+    os.system('cls') # ganti clear untuk di termux
 
 try:
     while True:
         try:
-            os.system('clear')# ganti clear untuk di termux
+            bersihkan_console()
             print('='*4, 'SELAMAT DATANG', '='*4)
             print('='*4, 'masukan no pilihan menu')
             print('''
             1). masuk ke menu mtk
             2). masuk ke tool hack
+            3). kelistrikan
             0). keluar
                 ''')
             i_user = input('masukan no pilihan\t: ')
             if i_user == '0':
                 break
             elif i_user == '1':
+                bersihkan_console()
                 print('=== menu')
                 print('''
                 1). Tambah
@@ -68,71 +36,85 @@ try:
                 4). bagi
                 5). modulus
                 6). pangkat
+                7). kecepatan km/h
                 0). keluar
                 ''')
                 menu_user = input('masukan pilihan\t: ')
                 
                 
                 if menu_user == '1':
-                    fungsi_ulang_tambah()
+                    c.fungsi_ulang_tambah()
                     p = input('apakah mau keluar(y/n)')
                     if p == 'y':
                         continue
                     else:
                         while p == 'n':
-                            fungsi_ulang_tambah()
+                            c.fungsi_ulang_tambah()
                             p = input('apakah mau keluar(y/n)')
                             
                             
                 elif menu_user == '2':                    
-                    fungsi_ulang_kurang()
+                    c.fungsi_ulang_kurang()
                     p = input('apakah mau keluar(y/n)')
                     if p == 'y':
                         continue
                     else:
                         while p == 'n':
-                            fungsi_ulang_kurang()
+                            c.fungsi_ulang_kurang()
                             p = input('apakah mau keluar(y/n)')
                 
                 elif menu_user == '3':                    
-                    fungsi_ulang_kali()
+                    c.fungsi_ulang_kali()
                     p = input('apakah mau keluar(y/n)')
                     if p == 'y':
                         continue
                     else:
                         while p == 'n':
-                            fungsi_ulang_kali()
+                            c.fungsi_ulang_kali()
                             p = input('apakah mau keluar(y/n)')
         
                 elif menu_user == '4':                    
-                    fungsi_ulang_bagi()
+                    c.fungsi_ulang_bagi()
                     p = input('apakah mau keluar(y/n)')
                     if p == 'y':
                         continue
                     else:
                         while p == 'n':
-                            fungsi_ulang_bagi()
+                            c.fungsi_ulang_bagi()
                             p = input('apakah mau keluar(y/n)')
         
                 elif menu_user == '5':                    
-                    fungsi_ulang_modulus()
+                    c.fungsi_ulang_modulus()
                     p = input('apakah mau keluar(y/n)')
                     if p == 'y':
                         continue
                     else:
                         while p == 'n':
-                            fungsi_ulang_modulus()
+                            c.fungsi_ulang_modulus()
                             p = input('apakah mau keluar(y/n)')
         
                 elif menu_user == '6':                    
-                    fungsi_ulang_pangkat()
+                    c.fungsi_ulang_pangkat()
                     p = input('apakah mau keluar(y/n)')
                     if p == 'y':
                         continue
                     else:
                         while p == 'n':
-                            fungsi_ulang_pangkat()
+                            c.fungsi_ulang_pangkat()
                             p = input('apakah mau keluar(y/n)')
+                
+                elif menu_user == '7':
+                    bersihkan_console()
+                    rk.hitung_kmh()
+                    p = input('apakah mau keluar(y/n)')
+                    if p == 'y':
+                        continue
+                    else:
+                        while p == 'n':
+                            bersihkan_console()
+                            rk.hitung_kmh()
+                            p = input('apakah mau keluar(y/n)')
+                
                 else:
                     continue
                 
@@ -154,6 +136,24 @@ try:
                             ckip.tampil_ip()
                             p = input('apakah mau keluar(y/n)')
                 
+            elif i_user == '3':
+                print('=== menu')
+                print('''
+                1). cek toleransi resistor
+                0). keluar
+                ''')
+                menu_user = input('masukan pilihan\t: ')
+                if menu_user == '1':
+                    bersihkan_console()
+                    tr.r_kalkulet()
+                    p = input('apakah mau keluar(y/n)')
+                    if p == 'y':
+                        continue
+                    else:
+                        while p == 'n':
+                            bersihkan_console()
+                            tr.r_kalkulet()
+                            p = input('apakah mau keluar(y/n)')
                 
                 
                 
