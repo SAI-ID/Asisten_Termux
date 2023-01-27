@@ -38,7 +38,8 @@ ikuti langkah langka berikut setelah anda membuka termux, anda bisa copy paste :
 - python Main.py  
   
   
-## di buat dengan bahasa
+## di buat dengan bahasa dan tool
 ![Build Status](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Build Status](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
   
 ## SELAMAT Asisten_Termux BERFUNGSI
