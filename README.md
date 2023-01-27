@@ -1,7 +1,7 @@
 # Asisten_Termux
 ini adalah projeck yang masih awal dan belum selesai di buat,  
 untuk memulai cukup clone dan jalan-kan di termux.  
-[![Build Status](https://img.shields.io/github/SAI-ID/Asisten_Termux/tree/Version-0.1.0)][(https://github.com/SAI-ID/Asisten_Termux/tree/Version-0.1.0)]
+[![Build Status](https://img.shields.io/github/commits-since/SAI-ID/Asisten_Termux/tree/Version-0.1.0)][(https://github.com/SAI-ID/Asisten_Termux/tree/Version-0.1.0)]
 
 ## modulus yang di perlukan  
 jalanka perintah ini :  
