@@ -1,5 +1,6 @@
-![Build Status](https://img.shields.io/github/stars/SAI-ID/Asisten_Termux.svg)  
-![Build Status](https://img.shields.io/github/downloads/SAI-ID/Asisten_Termux/total.svg)  
+![Build Status](https://img.shields.io/github/stars/SAI-ID/Asisten_Termux.svg)
+![Build Status](https://img.shields.io/github/downloads/SAI-ID/Asisten_Termux/total.svg)
+![Build Status](https://img.shields.io/github/forks/SAI-ID/Asisten_Termux.svg)  
 <br>
 <br>
 
@@ -32,7 +33,8 @@ ikuti langkah langka berikut setelah anda membuka termux, anda bisa copy paste :
 - cd Asisten_Termux  
 - python Main.py  
   
-## SELAMAT Asisten_Termux BERFUNGSI
-
-![Build Status](https://img.shields.io/github/forks/SAI-ID/Asisten_Termux.svg)  
+## aplikasi untuk
+![Build Status](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Build Status](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+  
+## SELAMAT Asisten_Termux BERFUNGSI
