@@ -9,7 +9,7 @@ from pkg.matematika import rumus_kecepatan as rk
 from pkg import cetak as c
 
 def bersihkan_console():
-    os.system('cls') # ganti clear untuk di termux
+    os.system('clear') # ganti clear untuk di termux
 
 try:
     while True:
