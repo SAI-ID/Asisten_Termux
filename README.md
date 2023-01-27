@@ -34,4 +34,5 @@ ikuti langkah langka berikut setelah anda membuka termux, anda bisa copy paste :
   
 ## SELAMAT Asisten_Termux BERFUNGSI
 
-![Build Status](https://img.shields.io/github/forks/SAI-ID/Asisten_Termux.svg)
+![Build Status](https://img.shields.io/github/forks/SAI-ID/Asisten_Termux.svg)  
+![Build Status](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
