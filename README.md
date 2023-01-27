@@ -1,3 +1,5 @@
+![Build Status](https://img.shields.io/github/stars/SAI-ID/Asisten_Termux.svg)
+
 # Asisten_Termux
 ini adalah projeck yang masih awal dan belum selesai di buat,  
 untuk memulai cukup clone dan jalan-kan di termux.  
@@ -28,3 +30,5 @@ ikuti langkah langka berikut setelah anda membuka termux, anda bisa copy paste :
 - python Main.py  
   
 ## SELAMAT Asisten_Termux BERFUNGSI
+
+![Build Status](https://img.shields.io/github/forks/SAI-ID/Asisten_Termux.svg)
