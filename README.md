@@ -1,4 +1,7 @@
-![Build Status](https://img.shields.io/github/stars/SAI-ID/Asisten_Termux.svg)
+![Build Status](https://img.shields.io/github/stars/SAI-ID/Asisten_Termux.svg)  
+![Build Status](https://img.shields.io/github/downloads/SAI-ID/Asisten_Termux/total.svg)  
+<br>
+<br>
 
 # Asisten_Termux
 ini adalah projeck yang masih awal dan belum selesai di buat,  
