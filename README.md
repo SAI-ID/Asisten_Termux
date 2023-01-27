@@ -1,6 +1,7 @@
 # Asisten_Termux
-ini adalah projeck yang masih awal dan belum selesai di buat,
-untuk memulai cukup clone dan jalan-kan di termux./n
+ini adalah projeck yang masih awal dan belum selesai di buat,  
+untuk memulai cukup clone dan jalan-kan di termux.  
+![Build Status](https://img.shields.io/github/commits-since/SAI-ID/Asisten_Termux/0.1.0.svg)
 
 ## modulus yang di perlukan  
 jalanka perintah ini :  
