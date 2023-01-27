@@ -8,6 +8,10 @@
 ini adalah projeck yang masih awal dan belum selesai di buat,  
 untuk memulai cukup clone dan jalan-kan di termux.  
 
+## aplikasi untuk
+![Build Status](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Build Status](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)  
+
 
 ## fitur
 - menu untuk matematika untuk sekarang ada 7  
@@ -33,8 +37,8 @@ ikuti langkah langka berikut setelah anda membuka termux, anda bisa copy paste :
 - cd Asisten_Termux  
 - python Main.py  
   
-## aplikasi untuk
-![Build Status](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Build Status](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+  
+## di buat dengan bahasa
+![Build Status](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
   
 ## SELAMAT Asisten_Termux BERFUNGSI
