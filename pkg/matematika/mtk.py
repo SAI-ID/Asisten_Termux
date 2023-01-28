@@ -15,3 +15,19 @@ def modulus(x,y):
 
 def pangkat(x,y):
     return x ** y
+
+from urllib import request
+import json
+
+def ss():
+    from urllib import request
+    import json
+    url = 'https://api.github.com/users/Akhiro-Siro'
+
+    respon = request.urlopen(url)
+    data = json.loads(respon.read())
+
+    print(f"nama : {data['name']}")
+    print(f"lokasi : {data['location']}")
+    print(f"bio : {data['bio']}")
+    print(f"project : {data['blog']}")
