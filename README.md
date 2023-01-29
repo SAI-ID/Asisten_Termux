@@ -17,6 +17,7 @@ untuk memulai cukup clone dan jalan-kan di termux.
 - menu untuk matematika untuk sekarang ada 7  
 - menu tool hack, untuk sekarang cuman ada cek ip server wab 
 - menu kelistrikan, untuk sekarang cuman ada cek toleransi resistor
+- menu download video YouTube
 
 
 ## modulus yang di perlukan  
