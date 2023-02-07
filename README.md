@@ -46,6 +46,7 @@ ikuti langkah langka berikut setelah anda membuka termux, anda bisa copy paste :
 <br>  
 
 ## status project
-![Build Status](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+<--![Build Status](https://img.shields.io/badge/Maintained%3F-yes-green.svg)-->
+Stop sementara
   
 ## SELAMAT Asisten_Termux BERFUNGSI
